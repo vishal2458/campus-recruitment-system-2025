@@ -15,8 +15,13 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email')->unique();
-            $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->boolean('is_verified')->default(false);
+            $table->boolean('profile_completed')->default(false);
+            $table->integer('email_attempts')->default(5);
+            $table->enum('role', ['student', 'admin', 'company'])->default('student');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('email_verification_token', 64)->nullable()->unique();
             $table->rememberToken();
             $table->timestamps();
         });

@@ -6,10 +6,10 @@ use App\Http\Controllers\Api\AuthController;
 
 
 // Open
-Route::post('/register', [AuthController::class, 'register']);
-Route::post('/login', [AuthController::class, 'login']);
-Route::get('/loginform', [AuthController::class, 'loginform'])->name('login');
-
+Route::post('/register', [AuthController::class, 'register'])->name('auth.register');
+Route::post('/login', [AuthController::class, 'login'])->name('auth.login');
+Route::get('/login-form', [AuthController::class, 'loginForm'])->name('auth.loginForm');
+Route::post('/verify-email', [AuthController::class, 'verifyEmail'])->name('auth.verifyEmail');
 
 // Protected
 Route::group([

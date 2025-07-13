@@ -7,38 +7,45 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use App\Jobs\SendMailJob;
+use App\Helpers\GlobalHelper;
 
 
 class AuthController extends Controller
 {
     public function register(Request $request)
     {
-        $request->validate([
-            'name' => 'required',
-            'email' => 'required|email',
-            'password' => 'required|min:6',
-            'role' => 'required',
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|string|min:6',
+            'role' => 'required|in:student,admin,company',
         ]);
+
+        $token = random_int(100000, 999999);
+
         $user = User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => bcrypt($request->password),
-            'role' => $request->role,
+            'name' => $validated['name'],
+            'email' => $validated['email'],
+            'password' => bcrypt($validated['password']),
+            'role' => $validated['role'],
             'profile_completed' => 0,
+            'email_verification_token' => $token,
         ]);
 
-        if($user)
-        {
-            SendMailJob::dispatch($user);
+        if ($user) {
+            SendMailJob::dispatch($user->id, 'registration');
 
+            return response()->json([
+                'status' => true,
+                'message' => 'An email with your OTP has been sent.',
+                'user_id' => $user->uuid,
+            ], 201);
         }
-        // dd($user);
-        // $user->sendEmailVerificationNotification(); // this sends the link
 
         return response()->json([
-            'status' => true,
-            'message' => 'User registered successfully'
-        ]);
+            'status' => false,
+            'message' => 'Registration failed. Please try again.',
+        ], 500);
     }
 
     public function login(Request $request){
@@ -71,6 +78,40 @@ class AuthController extends Controller
 
     }
 
+    public function verifyEmail(Request $request)
+    {
+        $request->validate([
+            'code'  => 'required|digits:6',
+        ]);
+
+        $user = GlobalHelper::emailVerification($request->uuid,$request->code);
+
+        if (!$user) {
+            return response()->json([
+                'status' => false,
+                'message' => 'Invalid OTP.',
+            ], 422);
+        }
+
+        $user->update([
+            'is_verified' => true,
+            'email_verified_at' => now(),
+            'email_verification_token' => null,
+        ]);
+
+        return response()->json([
+            'status' => true,
+            'message' => 'Email verified successfully.',
+        ]);
+    }
+
+    public function loginForm(Request $request){
+        return response()->json([
+            'message' => 'Login form',
+            'status' => true,
+        ]);
+
+    }
     public function profile(Request $request){
         $user = Auth::user();
 
@@ -80,6 +121,7 @@ class AuthController extends Controller
             'user' => $user
         ]);
     }
+
     public function refreshToken(Request $request){
 
         $newToken = auth()->refresh();
@@ -91,12 +133,12 @@ class AuthController extends Controller
             'expires_in' => Auth::factory()->getTTL() * 60
         ]);
     }
-    public function loginform(Request $request){
+    public function logout(Request $request){
+        auth()->logout();
         return response()->json([
-            'message' => 'Login form',
+            'message' => 'User logged out',
             'status' => true,
         ]);
-
     }
 }
 

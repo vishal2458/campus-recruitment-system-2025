@@ -24,4 +24,12 @@
 >> php artisan make:job SendMailJob  to handel the job of mails logic
 >> php artisan make:mail VerifyEmail to handel the email template and logic of perticular mail
  
+ <!-- Global function / helper -->
+>> create the helper in app/Helpers/GlobalHelper.php
+>> add the helper in composer.json after that run composer dump-autoload
+>> example =>  "files": [
+                    "app/Helpers/GlobalHelper.php"
+                ]
+>> now you can use the global function
+
  

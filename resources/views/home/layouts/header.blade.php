@@ -75,17 +75,17 @@
                 <div class="col-md-12">
                     <div class="ed-com-t1-left">
                         <ul>
-                            <li><a href="#">Contact: Lake Road, Suite 180 Farmington Hills, U.S.A.</a>
+                            <li><a href="#"><b>Vishal Prajapati (PHP Laravel Developer)</b></a>
                             </li>
-                            <li><a href="#">Phone: +101-1231-1231</a>
-                            </li>
+                            <li><a href="#">Phone: +91 9723696148</a></li>
+                            <li><a href="#">Email: prajapati494@gmail.com</a></li>
                         </ul>
                     </div>
                     <div class="ed-com-t1-right">
                         <ul>
-                            <li><a href="#!" data-bs-toggle="modal" data-bs-target="#modal1">Sign In</a>
+                            <li><a href="{{ route('home.login') }}" data-bs-toggle="modal" data-bs-target="#modal1">Sign In</a>
                             </li>
-                            <li><a href="#!" data-bs-toggle="modal" data-bs-target="#modal2">Sign Up</a>
+                            <li><a href="{{ route('home.reg') }}" data-bs-toggle="modal" data-bs-target="#modal2">Sign Up</a></li>
                             </li>
                         </ul>
                     </div>

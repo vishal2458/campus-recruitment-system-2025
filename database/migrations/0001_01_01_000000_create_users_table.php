@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->uuid('uuid')->unique();
             $table->string('name');
-            $table->string('email')->unique();
+            $table->string('email',191)->unique();
             $table->string('password');
             $table->boolean('is_verified')->default(false);
             $table->boolean('profile_completed')->default(false);

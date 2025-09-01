@@ -1,28 +1,17 @@
-    <script src="{{ asset('vendor/admin/global/global.min.js') }}"></script>
-    <script src="{{ asset('vendor/admin/chart.js/Chart.bundle.min.js') }}"></script>
-    <script src="{{ asset('vendor/admin/bootstrap-select/dist/js/bootstrap-select.min.js') }}"></script>
-    <!-- Apex Chart -->
-    <script src="{{ asset('vendor/admin/apexchart/apexchart.js') }}"></script>
-    <!-- Chart piety plugin files -->
-    <script src="{{ asset('vendor/admin/peity/jquery.peity.min.js') }}"></script>
-    <script src="{{ asset('vendor/admin/jquery-nice-select/js/jquery.nice-select.min.js') }}"></script>
-    <!--swiper-slider-->
-    <script src="{{ asset('vendor/admin/swiper/js/swiper-bundle.min.js') }}"></script>
-
-
-    <!-- Datatable -->
-    <script src="{{ asset('vendor/admin/datatables/js/jquery.dataTables.min.js') }}"></script>
-    <script src="{{ asset('js/admin/plugins-init/datatables.init.js') }}"></script>
-
-    <!-- Dashboard 1 -->
-    <script src="{{ asset('js/admin/dashboard/dashboard-1.js') }}"></script>
-    <script src="{{asset('vendor/admin/wow-master/dist/wow.min.js')}}"></script>
-    <script src="{{asset('vendor/admin/bootstrap-datetimepicker/js/moment.js')}}"></script>
-    <script src="{{asset('vendor/admin/datepicker/js/bootstrap-datepicker.min.js')}}"></script>
-    <script src="{{asset('vendor/admin/bootstrap-select-country/js/bootstrap-select-country.min.js')}}"></script>
-
-    <script src="{{ asset('js/admin/dlabnav-init.js') }}"></script>
-    <script src="{{ asset('js/admin/custom.min.js') }}"></script>
-    <script src="{{ asset('js/admin/demo.js') }}"></script>
-    <script src="{{ asset('js/admin/styleSwitcher.js') }}"></script>
-
+    <script src="{{ asset('commondashboard/vendor/global/global.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/svganimation/vivus.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/svganimation/svg.animation.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/ckeditor/ckeditor.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/jquery-sparkline/jquery.sparkline.min.js') }}"
+        type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/plugins-init/sparkline-init.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/raphael/raphael.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/morris/morris.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/plugins-init/widgets-script-init.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/dashboard/dashboard.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/custom.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/dlabnav-init.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/demo.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/styleSwitcher.js') }}" type="text/javascript"></script>

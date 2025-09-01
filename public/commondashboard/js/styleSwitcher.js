@@ -98,9 +98,9 @@ function addSwitcher()
         html.addClass(this.value);
 
         if(html.attr('dir') === "rtl"){
-			jQuery('.main-css').attr('href','commonDashboard/css/style-rtl.css');
+			jQuery('.main-css').attr('href','commondashboard/css/style-rtl.css');
 		}else{
-			jQuery('.main-css').attr('href','commonDashboard/css/style.css');
+			jQuery('.main-css').attr('href','commondashboard/css/style.css');
 		}
 
         body.attr('direction', this.value);

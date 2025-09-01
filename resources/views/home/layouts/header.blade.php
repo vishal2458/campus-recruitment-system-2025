@@ -34,8 +34,8 @@
                         </ul>
                         <h4>User Account</h4>
                         <ul>
-                            <li><a href="#!" data-bs-toggle="modal" data-bs-target="#modal1">Sign In</a></li>
-                            <li><a href="#!" data-bs-toggle="modal" data-bs-target="#modal2">Register</a></li>
+                            <li><a href="{{ route('home.login') }}" data-bs-toggle="modal" data-bs-target="#modal1">Sign In</a></li>
+                            <li><a href="{{ route('home.reg') }}" data-bs-toggle="modal" data-bs-target="#modal2">Register</a></li>
                         </ul>
                         <h4>All Pages</h4>
                         <ul>

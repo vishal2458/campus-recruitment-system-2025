@@ -1,34 +1,36 @@
 <div class="nav-header">
     <a href="index.html" class="brand-logo">
-        <svg class="logo-abbr" width="40" height="40" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <rect y="3" width="48" height="48" rx="16" fill="#FB7D5B"/>
-            <path d="M28.964 35.536H19.532L18.02 40H11.576L20.72 14.728H27.848L36.992 40H30.476L28.964 35.536ZM27.38 30.784L24.248 21.532L21.152 30.784H27.38Z" fill="white"/>
+        <svg class="logo-abbr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84"
+            height="67" viewBox="0 0 84 67" fill="none">
+            <mask id="mask0_135_5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="76"
+                height="66">
+                <rect x="4" width="76" height="66" fill="url(#pattern0)" />
+            </mask>
+            <g mask="url(#mask0_135_5)">
+                <rect x="-3" y="-1" width="90" height="68" fill="none" />
+            </g>
+            <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                    <use xlink:href="#image0_135_5" transform="matrix(0.0125 0 0 0.0143939 0 -0.00378788)" />
+                </pattern>
+                <image id="image0_135_5" width="80" height="70"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABGCAMAAABsQOMZAAAAllBMVEUAAAD/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxb/jxZ2RtyAAAAAMXRSTlMA61rOUwajmEgztPfHuqiLdj0gGhXw38SukX5pVi0lC4VhQjgD2b+fck4pD/nm0uIIbztwLQAAAiBJREFUWMPt19uSojAUheEoKigKqIACKqh4PnSv93+5YUprU0wwEMjFdFX/936SWIYd9tuPba5bG4XcTL8DGKwVcZvTHa+WewXcUAfyrF1b7oR/Wu7acEuUNJk25KYjfGhhNOB2xJWSK0nuwnEc2ZXgjCNqpK3qPt0YNTtsa3ArDRL5UQW31SDZ4Zx+5qInGuQ7canW3x7QsI7j8lzko0Ve6BY554GWeXZOxuEXFOQF89dhHHagKNO+MraC0hw2cw7quEeyZlndpxrOj/rsXW+sAuwV/sJHVSB1aUFOdGR1BcegVFqPrQnkXiPSjS9/d4xAjrQkF2u8ftUc5MlBfW6UcRzIN7RqcjvGxCB1FT8lDTqVYD/OBy4xZw3ZuzQWgZo1o6HL/sydiLsFB1e05C8guNJT2mYpp69pDk08IBWBWvEDrs2dlXd9Q1+YmAA6/SqwMKzekgJpBjPibGRVgvym3xwiTXtOO6wD9UBqOSXy/Hi92YhbDwAJkB9Wv88PM3S5sVYWpL9WVkzcfgDIg9TxTRK3BErALbKiKpCOJ2o6AUrB4SBrXwUS+V6LQRwHUmIwJ7fZNhHXBqQWxLUFqf8E9CDftwgMTWlPT5koN/Gl1hvQYabiJuCfYwX3PGrRk7nYBlWbeZK95M5DX7B19pXJl0bjcu7pxKxhxqjlVZlvE9wLnLVnbZs7dIvxkitTURotkPU835iyjEl2yv72U/sDJjPTtw93ZiUAAAAASUVORK5CYII=" />
+            </defs>
         </svg>
-        <div class="brand-title">
-            <svg width="140" height="30" viewBox="0 0 167 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M17.964 24.536H8.532L7.02 29H0.576L9.72 3.728H16.848L25.992 29H19.476L17.964 24.536ZM16.38 19.784L13.248 10.532L10.152 19.784H16.38ZM41.051 29L34.931 20.576V29H28.775V2.36H34.931V17.084L41.015 8.912H48.611L40.259 18.992L48.683 29H41.051ZM49.8049 18.92C49.8049 16.856 50.1889 15.044 50.9569 13.484C51.7489 11.924 52.8169 10.724 54.1609 9.884C55.5049 9.044 57.0049 8.624 58.6609 8.624C60.0769 8.624 61.3129 8.912 62.3689 9.488C63.4489 10.064 64.2769 10.82 64.8529 11.756V8.912H71.0089V29H64.8529V26.156C64.2529 27.092 63.4129 27.848 62.3329 28.424C61.2769 29 60.0409 29.288 58.6249 29.288C56.9929 29.288 55.5049 28.868 54.1609 28.028C52.8169 27.164 51.7489 25.952 50.9569 24.392C50.1889 22.808 49.8049 20.984 49.8049 18.92ZM64.8529 18.956C64.8529 17.42 64.4209 16.208 63.5569 15.32C62.7169 14.432 61.6849 13.988 60.4609 13.988C59.2369 13.988 58.1929 14.432 57.3289 15.32C56.4889 16.184 56.0689 17.384 56.0689 18.92C56.0689 20.456 56.4889 21.68 57.3289 22.592C58.1929 23.48 59.2369 23.924 60.4609 23.924C61.6849 23.924 62.7169 23.48 63.5569 22.592C64.4209 21.704 64.8529 20.492 64.8529 18.956ZM74.2385 18.92C74.2385 16.856 74.6225 15.044 75.3905 13.484C76.1825 11.924 77.2505 10.724 78.5945 9.884C79.9385 9.044 81.4385 8.624 83.0945 8.624C84.4145 8.624 85.6145 8.9 86.6945 9.452C87.7985 10.004 88.6625 10.748 89.2865 11.684V2.36H95.4425V29H89.2865V26.12C88.7105 27.08 87.8825 27.848 86.8025 28.424C85.7465 29 84.5105 29.288 83.0945 29.288C81.4385 29.288 79.9385 28.868 78.5945 28.028C77.2505 27.164 76.1825 25.952 75.3905 24.392C74.6225 22.808 74.2385 20.984 74.2385 18.92ZM89.2865 18.956C89.2865 17.42 88.8545 16.208 87.9905 15.32C87.1505 14.432 86.1185 13.988 84.8945 13.988C83.6705 13.988 82.6265 14.432 81.7625 15.32C80.9225 16.184 80.5025 17.384 80.5025 18.92C80.5025 20.456 80.9225 21.68 81.7625 22.592C82.6265 23.48 83.6705 23.924 84.8945 23.924C86.1185 23.924 87.1505 23.48 87.9905 22.592C88.8545 21.704 89.2865 20.492 89.2865 18.956ZM118.832 18.632C118.832 19.208 118.796 19.808 118.724 20.432H104.792C104.888 21.68 105.284 22.64 105.98 23.312C106.7 23.96 107.576 24.284 108.608 24.284C110.144 24.284 111.212 23.636 111.812 22.34H118.364C118.028 23.66 117.416 24.848 116.528 25.904C115.664 26.96 114.572 27.788 113.252 28.388C111.932 28.988 110.456 29.288 108.824 29.288C106.856 29.288 105.104 28.868 103.568 28.028C102.032 27.188 100.832 25.988 99.9681 24.428C99.1041 22.868 98.6721 21.044 98.6721 18.956C98.6721 16.868 99.0921 15.044 99.9321 13.484C100.796 11.924 101.996 10.724 103.532 9.884C105.068 9.044 106.832 8.624 108.824 8.624C110.768 8.624 112.496 9.032 114.008 9.848C115.52 10.664 116.696 11.828 117.536 13.34C118.4 14.852 118.832 16.616 118.832 18.632ZM112.532 17.012C112.532 15.956 112.172 15.116 111.452 14.492C110.732 13.868 109.832 13.556 108.752 13.556C107.72 13.556 106.844 13.856 106.124 14.456C105.428 15.056 104.996 15.908 104.828 17.012H112.532ZM147.712 8.696C150.208 8.696 152.188 9.452 153.652 10.964C155.14 12.476 155.884 14.576 155.884 17.264V29H149.764V18.092C149.764 16.796 149.416 15.8 148.72 15.104C148.048 14.384 147.112 14.024 145.912 14.024C144.712 14.024 143.764 14.384 143.068 15.104C142.396 15.8 142.06 16.796 142.06 18.092V29H135.94V18.092C135.94 16.796 135.592 15.8 134.896 15.104C134.224 14.384 133.288 14.024 132.088 14.024C130.888 14.024 129.94 14.384 129.244 15.104C128.572 15.8 128.236 16.796 128.236 18.092V29H122.08V8.912H128.236V11.432C128.86 10.592 129.676 9.932 130.684 9.452C131.692 8.948 132.832 8.696 134.104 8.696C135.616 8.696 136.96 9.02 138.136 9.668C139.336 10.316 140.272 11.24 140.944 12.44C141.64 11.336 142.588 10.436 143.788 9.74C144.988 9.044 146.296 8.696 147.712 8.696ZM163.285 6.824C162.205 6.824 161.317 6.512 160.621 5.888C159.949 5.24 159.613 4.448 159.613 3.512C159.613 2.552 159.949 1.76 160.621 1.136C161.317 0.487998 162.205 0.163998 163.285 0.163998C164.341 0.163998 165.205 0.487998 165.877 1.136C166.573 1.76 166.921 2.552 166.921 3.512C166.921 4.448 166.573 5.24 165.877 5.888C165.205 6.512 164.341 6.824 163.285 6.824ZM166.345 8.912V29H160.189V8.912H166.345Z" fill="white"/>
-            </svg>
-        </div> 
+        <svg class="brand-title" xmlns="http://www.w3.org/2000/svg" width="122" height="19" viewBox="0 0 122 19"
+            fill="none">
+            <path
+                d="M5.3 4.3V7.175H10.925V10.9H5.3V14.075H11.675V18H0.4V0.374999H11.675V4.3H5.3ZM25.8564 0.374999C27.7064 0.374999 29.3231 0.749999 30.7064 1.5C32.1064 2.23333 33.1814 3.26667 33.9314 4.6C34.6814 5.93333 35.0564 7.45833 35.0564 9.175C35.0564 10.875 34.6731 12.3917 33.9064 13.725C33.1564 15.0583 32.0814 16.1083 30.6814 16.875C29.2981 17.625 27.6898 18 25.8564 18H18.8814V0.374999H25.8564ZM25.4814 13.675C26.9148 13.675 28.0398 13.2833 28.8564 12.5C29.6731 11.7167 30.0814 10.6083 30.0814 9.175C30.0814 7.725 29.6731 6.60833 28.8564 5.825C28.0398 5.025 26.9148 4.625 25.4814 4.625H23.7814V13.675H25.4814ZM46.8504 0.374999V10.6C46.8504 11.55 47.0671 12.2833 47.5004 12.8C47.9504 13.3167 48.6254 13.575 49.5254 13.575C50.4254 13.575 51.1004 13.3167 51.5504 12.8C52.0171 12.2667 52.2504 11.5333 52.2504 10.6V0.374999H57.1504V10.6C57.1504 12.2167 56.8087 13.6 56.1254 14.75C55.4421 15.8833 54.5087 16.7417 53.3254 17.325C52.1587 17.8917 50.8587 18.175 49.4254 18.175C47.9921 18.175 46.7087 17.8917 45.5754 17.325C44.4587 16.7417 43.5754 15.8833 42.9254 14.75C42.2921 13.6167 41.9754 12.2333 41.9754 10.6V0.374999H46.8504ZM85.2084 0.374999V18H80.3084V8.275L76.9834 18H72.8834L69.5334 8.2V18H64.6334V0.374999H70.5584L74.9834 11.825L79.3084 0.374999H85.2084ZM97.6828 0.374999V18H92.7828V0.374999H97.6828ZM121.583 18H116.683L110.158 8.15V18H105.258V0.374999H110.158L116.683 10.35V0.374999H121.583V18Z"
+                fill="black" />
+        </svg>
     </a>
-    
-
     <div class="nav-control">
         <div class="hamburger">
             <span class="line"></span><span class="line"></span><span class="line"></span>
-            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect x="22" y="11" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect x="11" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect x="22" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect x="11" y="11" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect x="11" y="22" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect y="11" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect x="22" y="22" width="4" height="4" rx="2" fill="#2A353A"/>
-                <rect y="22" width="4" height="4" rx="2" fill="#2A353A"/>
-            </svg>		
         </div>
     </div>
 </div>
+
 <div class="chatbox">
     <div class="chatbox-close"></div>
     <div class="custom-tab-1">
@@ -47,12 +49,30 @@
             <div class="tab-pane fade active show" id="chat" role="tabpanel">
                 <div class="card mb-sm-3 mb-md-0 contacts_card dlab-chat-user-box">
                     <div class="card-header chat-list-header text-center">
-                        <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#chat_model"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"/><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"/></g></svg></a>
+                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                                viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect fill="#000000" x="4" y="11" width="16" height="2" rx="1" />
+                                    <rect fill="#000000" opacity="0.3"
+                                        transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) "
+                                        x="4" y="11" width="16" height="2" rx="1" />
+                                </g>
+                            </svg></a>
                         <div>
                             <h6 class="mb-1">Chat List</h6>
                             <p class="mb-0">Show All</p>
                         </div>
-                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
+                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                                viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24" />
+                                    <circle fill="#000000" cx="5" cy="12" r="2" />
+                                    <circle fill="#000000" cx="12" cy="12" r="2" />
+                                    <circle fill="#000000" cx="19" cy="12" r="2" />
+                                </g>
+                            </svg></a>
                     </div>
                     <div class="card-body contacts_body p-0 dlab-scroll  " id="DLAB_W_Contacts_Body">
                         <ul class="contacts">
@@ -60,7 +80,8 @@
                             <li class="active dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon"></span>
                                     </div>
                                     <div class="user_info">
@@ -72,7 +93,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -84,7 +106,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/3.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon"></span>
                                     </div>
                                     <div class="user_info">
@@ -96,7 +119,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/4.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -109,7 +133,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/5.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -121,7 +146,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon"></span>
                                     </div>
                                     <div class="user_info">
@@ -133,7 +159,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -146,7 +173,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/3.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon"></span>
                                     </div>
                                     <div class="user_info">
@@ -158,7 +186,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/4.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -171,7 +200,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/5.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -183,7 +213,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon"></span>
                                     </div>
                                     <div class="user_info">
@@ -195,7 +226,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -207,7 +239,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/3.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon"></span>
                                     </div>
                                     <div class="user_info">
@@ -220,7 +253,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/4.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -232,7 +266,8 @@
                             <li class="dlab-chat-user">
                                 <div class="d-flex bd-highlight">
                                     <div class="img_cont">
-                                        <img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+                                        <img src="{{ asset('commondashboard/images/avatar/5.jpg') }}"
+                                            class="rounded-circle user_img" alt="">
                                         <span class="online_icon offline"></span>
                                     </div>
                                     <div class="user_info">
@@ -247,27 +282,44 @@
                 <div class="card chat dlab-chat-history-box d-none">
                     <div class="card-header chat-list-header text-center">
                         <a href="javascript:void(0);" class="dlab-chat-history-back">
-                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"/><rect fill="#000000" opacity="0.3" transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) " x="14" y="7" width="2" height="10" rx="1"/><path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) "/></g></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <polygon points="0 0 24 0 24 24 0 24" />
+                                    <rect fill="#000000" opacity="0.3"
+                                        transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) "
+                                        x="14" y="7" width="2" height="10" rx="1" />
+                                    <path
+                                        d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z"
+                                        fill="#000000" fill-rule="nonzero"
+                                        transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) " />
+                                </g>
+                            </svg>
                         </a>
                         <div>
                             <h6 class="mb-1">Chat with Khelesh</h6>
                             <p class="mb-0 text-success">Online</p>
-                        </div>							
+                        </div>
                         <div class="dropdown">
-                            <a href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1" >
+                            <a href="javascript:void(0);" data-bs-toggle="dropdown" aria-expanded="false"><svg
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    width="18px" height="18px" viewBox="0 0 24 24" version="1.1">
                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <rect x="0" y="0" width="24" height="24"/>
-                                        <circle fill="#000000" cx="5" cy="12" r="2"/>
-                                        <circle fill="#000000" cx="12" cy="12" r="2"/>
-                                        <circle fill="#000000" cx="19" cy="12" r="2"/>
+                                        <rect x="0" y="0" width="24" height="24" />
+                                        <circle fill="#000000" cx="5" cy="12" r="2" />
+                                        <circle fill="#000000" cx="12" cy="12" r="2" />
+                                        <circle fill="#000000" cx="19" cy="12" r="2" />
                                     </g>
-                                </svg>
-                            </a>
+                                </svg></a>
                             <ul class="dropdown-menu dropdown-menu-end">
-                                <li class="dropdown-item"><i class="fa fa-user-circle text-primary me-2"></i> View profile</li>
-                                <li class="dropdown-item"><i class="fa fa-users text-primary me-2"></i> Add to btn-close friends</li>
-                                <li class="dropdown-item"><i class="fa fa-plus text-primary me-2"></i> Add to group</li>
+                                <li class="dropdown-item"><i class="fa fa-user-circle text-primary me-2"></i>
+                                    View
+                                    profile</li>
+                                <li class="dropdown-item"><i class="fa fa-users text-primary me-2"></i> Add to
+                                    btn-close friends</li>
+                                <li class="dropdown-item"><i class="fa fa-plus text-primary me-2"></i> Add to
+                                    group
+                                </li>
                                 <li class="dropdown-item"><i class="fa fa-ban text-primary me-2"></i> Block</li>
                             </ul>
                         </div>
@@ -275,7 +327,8 @@
                     <div class="card-body msg_card_body dlab-scroll" id="DLAB_W_Contacts_Body3">
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 Hi, how are you samim?
@@ -288,12 +341,14 @@
                                 <span class="msg_time_send">8:55 AM, Today</span>
                             </div>
                             <div class="img_cont_msg">
-                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 I am good too, thank you for your chat template
@@ -306,12 +361,14 @@
                                 <span class="msg_time_send">9:05 AM, Today</span>
                             </div>
                             <div class="img_cont_msg">
-                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 I am looking for your next templates
@@ -324,12 +381,14 @@
                                 <span class="msg_time_send">9:10 AM, Today</span>
                             </div>
                             <div class="img_cont_msg">
-                                <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 Bye, see you
@@ -338,7 +397,8 @@
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 Hi, how are you samim?
@@ -351,12 +411,14 @@
                                 <span class="msg_time_send">8:55 AM, Today</span>
                             </div>
                             <div class="img_cont_msg">
-                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 I am good too, thank you for your chat template
@@ -369,12 +431,14 @@
                                 <span class="msg_time_send">9:05 AM, Today</span>
                             </div>
                             <div class="img_cont_msg">
-                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 I am looking for your next templates
@@ -387,12 +451,14 @@
                                 <span class="msg_time_send">9:10 AM, Today</span>
                             </div>
                             <div class="img_cont_msg">
-                                <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                         </div>
                         <div class="d-flex justify-content-start mb-4">
                             <div class="img_cont_msg">
-                                <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
+                                    class="rounded-circle user_img_msg" alt="">
                             </div>
                             <div class="msg_cotainer">
                                 Bye, see you
@@ -404,7 +470,8 @@
                         <div class="input-group">
                             <textarea class="form-control" placeholder="Type your message..."></textarea>
                             <div class="input-group-append">
-                                <button type="button" class="btn btn-primary"><i class="fa fa-location-arrow"></i></button>
+                                <button type="button" class="btn btn-primary"><i
+                                        class="fa fa-location-arrow"></i></button>
                             </div>
                         </div>
                     </div>
@@ -413,12 +480,33 @@
             <div class="tab-pane fade" id="alerts" role="tabpanel">
                 <div class="card mb-sm-3 mb-md-0 contacts_card">
                     <div class="card-header chat-list-header text-center">
-                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><circle fill="#000000" cx="5" cy="12" r="2"/><circle fill="#000000" cx="12" cy="12" r="2"/><circle fill="#000000" cx="19" cy="12" r="2"/></g></svg></a>
+                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                                viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24" />
+                                    <circle fill="#000000" cx="5" cy="12" r="2" />
+                                    <circle fill="#000000" cx="12" cy="12" r="2" />
+                                    <circle fill="#000000" cx="19" cy="12" r="2" />
+                                </g>
+                            </svg></a>
                         <div>
                             <h6 class="mb-1">Notications</h6>
                             <p class="mb-0">Show All</p>
                         </div>
-                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/></g></svg></a>
+                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                                viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24" />
+                                    <path
+                                        d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z"
+                                        fill="#000000" fill-rule="nonzero" opacity="0.3" />
+                                    <path
+                                        d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z"
+                                        fill="#000000" fill-rule="nonzero" />
+                                </g>
+                            </svg></a>
                     </div>
                     <div class="card-body contacts_body p-0 dlab-scroll" id="DLAB_W_Contacts_Body1">
                         <ul class="contacts">
@@ -469,12 +557,33 @@
             <div class="tab-pane fade" id="notes">
                 <div class="card mb-sm-3 mb-md-0 note_card">
                     <div class="card-header chat-list-header text-center">
-                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"/><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"/></g></svg></a>
+                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                                viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect fill="#000000" x="4" y="11" width="16" height="2" rx="1" />
+                                    <rect fill="#000000" opacity="0.3"
+                                        transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) "
+                                        x="4" y="11" width="16" height="2" rx="1" />
+                                </g>
+                            </svg></a>
                         <div>
                             <h6 class="mb-1">Notes</h6>
                             <p class="mb-0">Add New Nots</p>
                         </div>
-                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"/><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"/></g></svg></a>
+                        <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px"
+                                viewBox="0 0 24 24" version="1.1">
+                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <rect x="0" y="0" width="24" height="24" />
+                                    <path
+                                        d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z"
+                                        fill="#000000" fill-rule="nonzero" opacity="0.3" />
+                                    <path
+                                        d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z"
+                                        fill="#000000" fill-rule="nonzero" />
+                                </g>
+                            </svg></a>
                     </div>
                     <div class="card-body contacts_body p-0 dlab-scroll" id="DLAB_W_Contacts_Body2">
                         <ul class="contacts">
@@ -485,8 +594,10 @@
                                         <p>10 Aug 2020</p>
                                     </div>
                                     <div class="ms-auto">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i
+                                                class="fas fa-pencil-alt"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i
+                                                class="fa fa-trash"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -497,8 +608,10 @@
                                         <p>10 Aug 2020</p>
                                     </div>
                                     <div class="ms-auto">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i
+                                                class="fas fa-pencil-alt"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i
+                                                class="fa fa-trash"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -509,8 +622,10 @@
                                         <p>10 Aug 2020</p>
                                     </div>
                                     <div class="ms-auto">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i
+                                                class="fas fa-pencil-alt"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i
+                                                class="fa fa-trash"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -521,8 +636,10 @@
                                         <p>10 Aug 2020</p>
                                     </div>
                                     <div class="ms-auto">
-                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i class="fas fa-pencil-alt"></i></a>
-                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-primary btn-xs sharp me-1"><i
+                                                class="fas fa-pencil-alt"></i></a>
+                                        <a href="javascript:void(0);" class="btn btn-danger btn-xs sharp"><i
+                                                class="fa fa-trash"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -538,247 +655,123 @@
         <nav class="navbar navbar-expand">
             <div class="collapse navbar-collapse justify-content-between">
                 <div class="header-left">
-                <div class="dashboard_bar">
-                    Dashboard
+                    <div class="search_bar dropdown">
+                        <span class="search_icon p-3 c-pointer" data-bs-toggle="dropdown">
+                            <i class="mdi mdi-magnify"></i>
+                        </span>
+                        <div class="dropdown-menu p-0 m-0">
+                            <form>
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </div>
                 </div>
-                </div>
+
                 <ul class="navbar-nav header-right">
-                <li class="nav-item dropdown notification_dropdown all">
-                    <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
-                        <svg height="24" class="svg-main-icon" viewBox="0 0 32 32" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><clipPath id="clip_1"><path id="artboard_1" clip-rule="evenodd" d="m0 0h32v32h-32z"/></clipPath><g id="select" clip-path="url(#clip_1)"><path id="Vector" d="m4.70222 7.16834-.12871-.2574c-.0593-.11861-.13904-.22136-.23922-.30824-.10018-.08689-.21317-.1513-.33898-.19323-.1258-.04194-.25484-.0582-.38711-.0488-.13228.0094-.25772.04375-.37633.10306-.24699.12349-.41414.31622-.50147.5782-.08732.26197-.06923.51645.05426.76344l1.32093 2.64183c.0593.1186.13904.2214.23922.3083.10018.0868.21317.1512.33898.1932.1258.0419.25484.0582.38711.0488.13228-.0094.25772-.0438.37633-.1031.01854-.0092.03678-.0191.05471-.0295s.03552-.0214.05277-.0329l5.99999-3.99995c.1104-.07356.2024-.16543.2762-.27561s.1237-.23029.1497-.36032c.026-.13004.0261-.2601.0004-.39019-.0257-.13008-.0754-.25029-.1489-.36063-.1532-.22977-.3652-.37173-.636-.42588-.2707-.05416-.521-.00465-.7508.14853l-1.94316 1.29545-3.1143 2.07619zm11.29778-1.16834c-.2761 0-.5118.09763-.7071.29289s-.2929.43097-.2929.70711.0976.51184.2929.70711c.1953.19526.431.29289.7071.29289h14c.2761 0 .5118-.09763.7071-.29289.1953-.19527.2929-.43097.2929-.70711s-.0976-.51185-.2929-.70711-.431-.29289-.7071-.29289zm-11.27691 9.1683-.12871-.2574c-.12349-.2469-.31622-.4141-.5782-.5014-.26197-.0874-.51645-.0693-.76344.0542-.11861.0593-.22135.1391-.30824.2393-.08688.1001-.15129.2131-.19323.3389-.04193.1258-.0582.2549-.0488.3871.0094.1323.04376.2578.10306.3764l1.32092 2.6418c.1235.247.31623.4142.5782.5015.26198.0873.51646.0692.76345-.0543.01854-.0092.03678-.0191.05471-.0295s.03552-.0214.05277-.0329l6.00002-3.9999c.2298-.1532.3717-.3652.4259-.636.0541-.2708.0046-.521-.1486-.7508-.1531-.2298-.3651-.3717-.6359-.4259-.2708-.0541-.521-.0046-.7508.1485l-5.05749 3.3717zm11.27691-.1683c-.2761 0-.5118.0976-.7071.2929s-.2929.431-.2929.7071.0976.5118.2929.7071.431.2929.7071.2929h14c.2761 0 .5118-.0976.7071-.2929s.2929-.431.2929-.7071-.0976-.5118-.2929-.7071-.431-.2929-.7071-.2929zm-11.27691 8.1683-.12871-.2574c-.12349-.247-.31622-.4141-.5782-.5014-.26197-.0874-.51645-.0693-.76344.0542-.11861.0593-.22135.1391-.30824.2393-.08688.1001-.15129.2131-.19323.3389-.04193.1258-.0582.2549-.0488.3871.0094.1323.04376.2578.10306.3764l1.32092 2.6418c.1235.247.31623.4142.5782.5015.26198.0873.51646.0692.76345-.0543.01854-.0092.03678-.0191.05471-.0295s.03552-.0214.05277-.0329l6.00002-4c.1103-.0735.2024-.1654.2762-.2756.0738-.1101.1237-.2303.1497-.3603s.0261-.2601.0004-.3902c-.0258-.1301-.0754-.2503-.149-.3606-.1531-.2298-.3651-.3717-.6359-.4259-.2708-.0541-.521-.0046-.7508.1485l-1.94319 1.2955-3.1143 2.0762zm11.27691.8317c-.2761 0-.5118.0976-.7071.2929s-.2929.431-.2929.7071.0976.5118.2929.7071.431.2929.7071.2929h14c.2761 0 .5118-.0976.7071-.2929s.2929-.431.2929-.7071-.0976-.5118-.2929-.7071-.431-.2929-.7071-.2929z" fill-rule="evenodd"/></g></svg>
-                    </a>
-                        <div class="dropdown-menu dropdown-menu-end p-0">
-                            <div class="card mb-0">
-                                <div class="card-header border-0 d-block h-auto">
-                                    <ul class="d-flex align-items-center justify-content-around">
-                                        <li class="nav-item dropdown notification_dropdown">
-                                          <a class="nav-link  menu-wallet" href="javascript:void(0);">
-                                                    <svg id="Layer_1" enable-background="new 0 0 512 512" height="18" viewBox="0 0 512 512" width="18" xmlns="http://www.w3.org/2000/svg"><g><path d="m174 240h-108c-36.393 0-66-29.607-66-66v-108c0-36.393 29.607-66 66-66h108c36.393 0 66 29.607 66 66v108c0 36.393-29.607 66-66 66zm-108-208c-18.748 0-34 15.252-34 34v108c0 18.748 15.252 34 34 34h108c18.748 0 34-15.252 34-34v-108c0-18.748-15.252-34-34-34z"/><path d="m446 240h-108c-36.393 0-66-29.607-66-66v-108c0-36.393 29.607-66 66-66h108c36.393 0 66 29.607 66 66v108c0 36.393-29.607 66-66 66zm-108-208c-18.748 0-34 15.252-34 34v108c0 18.748 15.252 34 34 34h108c18.748 0 34-15.252 34-34v-108c0-18.748-15.252-34-34-34z"/><path d="m392 512c-66.168 0-120-53.832-120-120s53.832-120 120-120 120 53.832 120 120-53.832 120-120 120zm0-208c-48.523 0-88 39.477-88 88s39.477 88 88 88 88-39.477 88-88-39.477-88-88-88z"/><path d="m174 512h-108c-36.393 0-66-29.607-66-66v-108c0-36.393 29.607-66 66-66h108c36.393 0 66 29.607 66 66v108c0 36.393-29.607 66-66 66zm-108-208c-18.748 0-34 15.252-34 34v108c0 18.748 15.252 34 34 34h108c18.748 0 34-15.252 34-34v-108c0-18.748-15.252-34-34-34z"/></g></svg>
-                                          </a>
-                                        </li>
-                                        <li class="nav-item dropdown notification_dropdown">
-                                          <a class="nav-link bell dz-theme-mode" href="javascript:void(0);">
-                                                    <svg id="icon-light" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-                                            <svg id="icon-dark" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-                                          </a>
-                                        </li>
-                                        <li class="nav-item dropdown notification_dropdown">
-                                          <a class="nav-link bell dz-fullscreen"  href="javascript:void(0);">
-                                             <svg id="icon-full" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path></svg>
-                                             <svg id="icon-minimize" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="A098AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minimize"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3" style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path></svg>
-                                          </a>
-                                        </li>
-                                                        
-                                    </ul>
-                                </div>
-                            </div>
-                        
-                        </div>
-                </li>
-                    <li class="nav-item dropdown notification_dropdown search-area-header">
-                        <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
-                            <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M27.6 25.8L22 20.2C23.3 18.5 24.1 16.4 24.1 14.1C24.1 8.60001 19.6 4.10001 14.1 4.10001C8.6 4.10001 4 8.60001 4 14.1C4 19.6 8.5 24.1 14 24.1C16.3 24.1 18.5 23.3 20.2 21.9L25.8 27.5C26 27.7 26.4 27.9 26.7 27.9C27 27.9 27.3 27.8 27.6 27.5C28.1 27.1 28.1 26.3 27.6 25.8ZM6.5 14.1C6.5 10 9.9 6.60001 14 6.60001C18.1 6.60001 21.5 10 21.5 14.1C21.5 18.2 18.1 21.6 14 21.6C9.9 21.6 6.5 18.3 6.5 14.1Z" fill="#A098AE"/>
+                    <li class="nav-item dropdown notification_dropdown">
+                        <a class="nav-link bell dlab-theme-mode p-0" href="javascript:void(0);">
+                            <i id="icon-light" class="fas fa-sun"></i>
+                            <i id="icon-dark" class="fas fa-moon"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown notification_dropdown">
+                        <a class="nav-link bell-link " href="javascript:void(0);">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22.871" viewBox="0 0 24 22.871">
+                                <g data-name="Layer 2" transform="translate(-2 -2)">
+                                    <path id="Path_9" data-name="Path 9"
+                                        d="M23.268,2H4.73A2.733,2.733,0,0,0,2,4.73V17.471A2.733,2.733,0,0,0,4.73,20.2a.911.911,0,0,1,.91.91v1.94a1.82,1.82,0,0,0,2.83,1.514l6.317-4.212a.9.9,0,0,1,.5-.153h4.436a2.742,2.742,0,0,0,2.633-2L25.9,5.462A2.735,2.735,0,0,0,23.268,2Zm.879,2.978-3.539,12.74a.915.915,0,0,1-.88.663H15.292a2.718,2.718,0,0,0-1.514.459L7.46,23.051v-1.94a2.733,2.733,0,0,0-2.73-2.73.911.911,0,0,1-.91-.91V4.73a.911.911,0,0,1,.91-.91H23.268a.914.914,0,0,1,.879,1.158Z"
+                                        transform="translate(0 0)" />
+                                    <path id="Path_10" data-name="Path 10"
+                                        d="M7.91,10.82h4.55a.91.91,0,1,0,0-1.82H7.91a.91.91,0,1,0,0,1.82Z"
+                                        transform="translate(-0.45 -0.63)" />
+                                    <path id="Path_11" data-name="Path 11"
+                                        d="M16.1,13H7.91a.91.91,0,1,0,0,1.82H16.1a.91.91,0,1,0,0-1.82Z"
+                                        transform="translate(-0.45 -0.99)" />
+                                </g>
                             </svg>
-                        
+                            <span class="badge light text-white bg-primary rounded-circle">76</span>
                         </a>
-                        <div class="dropdown-menu dropdown-menu-end p-0 rounded">
-                            <div class="card mb-0">
-                                <div class="card-body px-0">
-                                    <div class="px-3">
-                                        <div class="input-group search-area w-100">
-                                            <input type="text" class="form-control" placeholder="Search here...">
-                                            <span class="input-group-text"><a href="javascript:void(0)">
-                                                <svg width="15" height="15" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M17.5605 15.4395L13.7527 11.6317C14.5395 10.446 15 9.02625 15 7.5C15 3.3645 11.6355 0 7.5 0C3.3645 0 0 3.3645 0 7.5C0 11.6355 3.3645 15 7.5 15C9.02625 15 10.446 14.5395 11.6317 13.7527L15.4395 17.5605C16.0245 18.1462 16.9755 18.1462 17.5605 17.5605C18.1462 16.9747 18.1462 16.0252 17.5605 15.4395V15.4395ZM2.25 7.5C2.25 4.605 4.605 2.25 7.5 2.25C10.395 2.25 12.75 4.605 12.75 7.5C12.75 10.395 10.395 12.75 7.5 12.75C4.605 12.75 2.25 10.395 2.25 7.5V7.5Z" fill="#01A3FF"></path>
-                                                </svg>
-                                            </a></span>
-                                        </div>
-                                            <h6 class="my-2 mt-3">Recently Searched:</h6>
+                    </li>
+                    <li class="nav-item dropdown notification_dropdown">
+                        <a class="nav-link bell ai-icon" href="javascript:void(0);" role="button"
+                            data-bs-toggle="dropdown">
+                            <svg id="icon-user" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
+                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                            </svg>
+                            <div class="pulse-css"></div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <ul class="list-unstyled">
+                                <li class="media dropdown-item align-items-center gap-3">
+                                    <span class="success"><i class="ti-user"></i></span>
+                                    <div class="media-body">
+                                        <a href="javascript:void(0);">
+                                            <p><strong>Martin</strong> has added a <strong>customer</strong>
+                                                Successfully
+                                            </p>
+                                        </a>
                                     </div>
-                                    <div class="dlab-scroll px-3 mt-3 height300">
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/1.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Benjamin</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/2.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Oliver</a>
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/1.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Lucas</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/2.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Benjamin</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/4.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Benjamin</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/3.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Benjamin</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/2.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Benjamin</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
-                                        <ul class="d-flex align-items-center mb-3">
-                                            <li>
-                                                <img src="images/avatar/1.jpg" class="avatar avatar-sm" alt="">
-                                                <a href="javascript:void(0);" class="ms-2">Benjamin</a>
-                                                
-                                            </li>
-                                            <li class="ms-auto"><i class="fa-solid fa-trash"></i></li>
-                                        </ul>
+                                    <span class="notify-time">3:20 am</span>
+                                </li>
+                                <li class="media dropdown-item align-items-center gap-3">
+                                    <span class="primary"><i class="ti-shopping-cart"></i></span>
+                                    <div class="media-body">
+                                        <a href="javascript:void(0);">
+                                            <p><strong>Jennifer</strong> purchased Light Dashboard 2.0.</p>
+                                        </a>
                                     </div>
-                                </div>
-                            </div>
+                                    <span class="notify-time">3:20 am</span>
+                                </li>
+                                <li class="media dropdown-item align-items-center gap-3">
+                                    <span class="danger"><i class="ti-bookmark"></i></span>
+                                    <div class="media-body">
+                                        <a href="javascript:void(0);">
+                                            <p><strong>Robin</strong> marked a <strong>ticket</strong> as
+                                                unsolved.
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <span class="notify-time">3:20 am</span>
+                                </li>
+                                <li class="media dropdown-item align-items-center gap-3">
+                                    <span class="primary"><i class="ti-heart"></i></span>
+                                    <div class="media-body">
+                                        <a href="javascript:void(0);">
+                                            <p><strong>David</strong> purchased Light Dashboard 1.0.</p>
+                                        </a>
+                                    </div>
+                                    <span class="notify-time">3:20 am</span>
+                                </li>
+                                <li class="media dropdown-item align-items-center gap-3">
+                                    <span class="success"><i class="ti-image"></i></span>
+                                    <div class="media-body">
+                                        <a href="javascript:void(0);">
+                                            <p><strong> James.</strong> has added a<strong>customer</strong>
+                                                Successfully
+                                            </p>
+                                        </a>
+                                    </div>
+                                    <span class="notify-time">3:20 am</span>
+                                </li>
+                            </ul>
+                            <a class="all-notification" href="javascript:void(0);">See all notifications <i
+                                    class="ti-arrow-right"></i></a>
                         </div>
                     </li>
                     <li class="nav-item dropdown notification_dropdown">
-                        <a class="nav-link  menu-wallet" href="javascript:void(0);">
-                            <svg id="Layer_2" enable-background="new 0 0 512 512" height="18" viewBox="0 0 512 512" width="18" xmlns="http://www.w3.org/2000/svg"><g><path d="m174 240h-108c-36.393 0-66-29.607-66-66v-108c0-36.393 29.607-66 66-66h108c36.393 0 66 29.607 66 66v108c0 36.393-29.607 66-66 66zm-108-208c-18.748 0-34 15.252-34 34v108c0 18.748 15.252 34 34 34h108c18.748 0 34-15.252 34-34v-108c0-18.748-15.252-34-34-34z"/><path d="m446 240h-108c-36.393 0-66-29.607-66-66v-108c0-36.393 29.607-66 66-66h108c36.393 0 66 29.607 66 66v108c0 36.393-29.607 66-66 66zm-108-208c-18.748 0-34 15.252-34 34v108c0 18.748 15.252 34 34 34h108c18.748 0 34-15.252 34-34v-108c0-18.748-15.252-34-34-34z"/><path d="m392 512c-66.168 0-120-53.832-120-120s53.832-120 120-120 120 53.832 120 120-53.832 120-120 120zm0-208c-48.523 0-88 39.477-88 88s39.477 88 88 88 88-39.477 88-88-39.477-88-88-88z"/><path d="m174 512h-108c-36.393 0-66-29.607-66-66v-108c0-36.393 29.607-66 66-66h108c36.393 0 66 29.607 66 66v108c0 36.393-29.607 66-66 66zm-108-208c-18.748 0-34 15.252-34 34v108c0 18.748 15.252 34 34 34h108c18.748 0 34-15.252 34-34v-108c0-18.748-15.252-34-34-34z"/></g></svg>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown notification_dropdown">
-                        <a class="nav-link bell dz-theme-mode" href="javascript:void(0);">
-                            <i id="icon-light-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></i>
-                            <i id="icon-dark-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></i>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown notification_dropdown">
-                        <a class="nav-link bell dz-fullscreen"  href="javascript:void(0);">
-                            <svg id="icon-full-1" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path></svg>
-                            <svg id="icon-minimize-1" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="A098AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minimize"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3" style="stroke-dasharray: 37, 57; stroke-dashoffset: 0;"></path></svg>
-                        </a>
-                    </li>
-                    
-                    <li class="nav-item dropdown notification_dropdown">
-                        <a class="nav-link bell-link" href="javascript:void(0);">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#A098AE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>						
-                        </a>
-                    </li>		
-                    <li class="nav-item bell-icon blink dropdown notification_dropdown">
-                        <a class="nav-link  " href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
-                    <svg width="20" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M25.3677 18.9391V9.86768C25.3677 4.70215 21.1655 0.5 16 0.5C10.8345 0.5 6.63232 4.70215 6.63232 9.86768V18.9397C4.96704 19.4224 3.73828 20.9544 3.73828 22.8374C3.73828 25.0386 5.5293 26.8296 7.73096 26.8296H11.377V26.877C11.377 29.4263 13.4507 31.5 16 31.5C18.5493 31.5 20.6231 29.4263 20.6231 26.8769V26.8296H24.2691C26.4707 26.8296 28.2617 25.0386 28.2617 22.7583C28.2617 20.9406 27.033 19.4198 25.3677 18.9391ZM9.63232 9.86768C9.63232 6.35645 12.4888 3.5 16 3.5C19.5112 3.5 22.3677 6.35645 22.3677 9.86768V18.7661H9.63232V9.86768ZM17.6231 26.8769C17.6231 27.772 16.895 28.5 16 28.5C15.105 28.5 14.377 27.772 14.377 26.8769V26.8296H17.623V26.8769H17.6231ZM24.269 23.8296H7.73096C7.1836 23.8296 6.73828 23.3843 6.73828 22.7583C6.73828 22.2114 7.18359 21.7661 7.73096 21.7661H24.2691C24.8164 21.7661 25.2617 22.2114 25.2617 22.8374C25.2617 23.3843 24.8164 23.8296 24.269 23.8296Z" fill="#A098AE"/>
-                        </svg>		
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-end of-visible">
-                            <div class="dropdown-header">
-                                <h4 class="title mb-0">Notification</h4>
-                                <a href="javascript:void(0);" class="d-none"><i class="flaticon-381-settings-6"></i></a>
-                            </div>
-                            <div id="DZ_W_Notification1" class="widget-media dlab-scroll p-3" style="height:380px;">
-                                <ul class="timeline">
-                                    <li>
-                                        <div class="timeline-panel">
-                                            <div class="media me-2">
-                                                <img alt="image" width="50" src="images/avatar/1.jpg">
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mb-1">Dr sultads Send you Photo</h6>
-                                                <small class="d-block">29 July 2020 - 02:26 PM</small>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="timeline-panel">
-                                            <div class="media me-2 media-info">
-                                                KG
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mb-1">Resport created successfully</h6>
-                                                <small class="d-block">29 July 2020 - 02:26 PM</small>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="timeline-panel">
-                                            <div class="media me-2 media-success">
-                                                <i class="fa fa-home"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mb-1">Reminder : Treatment Time!</h6>
-                                                <small class="d-block">29 July 2020 - 02:26 PM</small>
-                                            </div>
-                                        </div>
-                                    </li>
-                                     <li>
-                                        <div class="timeline-panel">
-                                            <div class="media me-2">
-                                                <img alt="image" width="50" src="images/avatar/1.jpg">
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mb-1">Dr sultads Send you Photo</h6>
-                                                <small class="d-block">29 July 2020 - 02:26 PM</small>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="timeline-panel">
-                                            <div class="media me-2 media-danger">
-                                                KG
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mb-1">Resport created successfully</h6>
-                                                <small class="d-block">29 July 2020 - 02:26 PM</small>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="timeline-panel">
-                                            <div class="media me-2 media-primary">
-                                                <i class="fa fa-home"></i>
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mb-1">Reminder : Treatment Time!</h6>
-                                                <small class="d-block">29 July 2020 - 02:26 PM</small>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <a class="all-notification" href="javascript:void(0);">See all notifications <i class="ti-arrow-end"></i></a>
-                        </div>
-                    </li>
-                    
-                    <li class="nav-item dropdown notification_dropdown">
-                        <a class="nav-link me-0 " href="javascript:void(0);" data-bs-toggle="dropdown">
-                            <svg width="20" class="setting-svg" height="20" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12.2631 2.66667L11.4167 6.46615C10.9353 6.69779 10.4752 6.96458 10.0339 7.26563L6.32035 6.09636L2.58337 12.5703L5.39848 15.1484C5.28849 15.9648 5.33831 16.3672 5.39848 16.8516L2.58337 19.4297L6.32035 25.9037L10.0339 24.7344C10.4752 25.0354 10.9353 25.3022 11.4167 25.5339L12.2631 29.3333H19.737L20.5834 25.5339C21.0647 25.3022 21.5249 25.0354 21.9662 24.7344L25.6797 25.9037L29.4167 19.4297L26.6016 16.8516C26.6246 16.5682 26.6664 16.2845 26.6667 16C26.6678 15.7069 26.6216 15.4108 26.6016 15.1484L29.4167 12.5703L25.6797 6.09636L21.9662 7.26563C21.5249 6.96458 21.0647 6.69779 20.5834 6.46615L19.737 2.66667H12.2631ZM14.4037 5.33334H17.5964L18.2552 8.29167L18.9167 8.55209C19.6649 8.84512 20.3644 9.24846 20.9922 9.75001L21.5495 10.1927L24.4401 9.28386L26.0365 12.0495L23.8021 14.099L23.9089 14.8021C24.0346 15.5797 24.0101 16.4746 23.9089 17.1979L23.8021 17.901L26.0365 19.9505L24.4401 22.7162L21.5495 21.8073L20.9922 22.25C20.3644 22.7516 19.6649 23.1549 18.9167 23.4479L18.2552 23.7083L17.5964 26.6667H14.4037L13.7448 23.7083L13.0834 23.4479C12.3351 23.1549 11.6357 22.7516 11.0079 22.25L10.4506 21.8073L7.55994 22.7162L5.96358 19.9505L8.19796 17.901L8.09119 17.1979C7.96095 16.4046 7.98095 15.4967 8.09119 14.8021L8.19796 14.099L5.96358 12.0495L7.55994 9.28386L10.4506 10.1927L11.0079 9.75001C11.6357 9.24846 12.3351 8.84512 13.0834 8.55209L13.7448 8.29167L14.4037 5.33334ZM16 10.6667C13.0703 10.6667 10.6667 13.0703 10.6667 16C10.6667 18.9297 13.0703 21.3333 16 21.3333C18.9298 21.3333 21.3334 18.9297 21.3334 16C21.3334 13.0703 18.9298 10.6667 16 10.6667ZM16 13.3333C17.4886 13.3333 18.6667 14.5115 18.6667 16C18.6667 17.4886 17.4886 18.6667 16 18.6667C14.5115 18.6667 13.3334 17.4886 13.3334 16C13.3334 14.5115 14.5115 13.3333 16 13.3333Z" fill="#A098AE"/>
+                        <a class="nav-link ai-icon" href="javascript:void(0);" data-bs-toggle="dropdown">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="23.262" height="24" viewBox="0 0 23.262 24">
+                                <g id="icon" transform="translate(-1565 90)">
+                                    <path id="setting_1_" data-name="setting (1)"
+                                        d="M30.45,13.908l-1-.822a1.406,1.406,0,0,1,0-2.171l1-.822a1.869,1.869,0,0,0,.432-2.385L28.911,4.293a1.869,1.869,0,0,0-2.282-.818l-1.211.454a1.406,1.406,0,0,1-1.88-1.086l-.213-1.276A1.869,1.869,0,0,0,21.475,0H17.533a1.869,1.869,0,0,0-1.849,1.567L15.47,2.842a1.406,1.406,0,0,1-1.88,1.086l-1.211-.454a1.869,1.869,0,0,0-2.282.818L8.126,7.707a1.869,1.869,0,0,0,.432,2.385l1,.822a1.406,1.406,0,0,1,0,2.171l-1,.822a1.869,1.869,0,0,0-.432,2.385L10.1,19.707a1.869,1.869,0,0,0,2.282.818l1.211-.454a1.406,1.406,0,0,1,1.88,1.086l.213,1.276A1.869,1.869,0,0,0,17.533,24h3.943a1.869,1.869,0,0,0,1.849-1.567l.213-1.276a1.406,1.406,0,0,1,1.88-1.086l1.211.454a1.869,1.869,0,0,0,2.282-.818l1.972-3.415a1.869,1.869,0,0,0-.432-2.385ZM27.287,18.77l-1.211-.454a3.281,3.281,0,0,0-4.388,2.533l-.213,1.276H17.533l-.213-1.276a3.281,3.281,0,0,0-4.388-2.533l-1.211.454L9.75,15.355l1-.822a3.281,3.281,0,0,0,0-5.067l-1-.822L11.721,5.23l1.211.454A3.281,3.281,0,0,0,17.32,3.151l.213-1.276h3.943l.213,1.276a3.281,3.281,0,0,0,4.388,2.533l1.211-.454,1.972,3.414h0l-1,.822a3.281,3.281,0,0,0,0,5.067l1,.822ZM19.5,7.375A4.625,4.625,0,1,0,24.129,12,4.63,4.63,0,0,0,19.5,7.375Zm0,7.375A2.75,2.75,0,1,1,22.254,12,2.753,2.753,0,0,1,19.5,14.75Z"
+                                        transform="translate(1557.127 -90)"></path>
+                                </g>
                             </svg>
 
+                            <span class="badge light text-white bg-primary rounded-circle">15</span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end">
                             <div id="DZ_W_TimeLine02" class="widget-timeline dlab-scroll style-1 p-3 height370">
@@ -787,7 +780,8 @@
                                         <div class="timeline-badge primary"></div>
                                         <a class="timeline-panel text-muted" href="javascript:void(0);">
                                             <span>10 minutes ago</span>
-                                            <h6 class="mb-0">Youtube, a video-sharing website, goes live <strong class="text-primary">$500</strong>.</h6>
+                                            <h6 class="mb-0">Youtube, a video-sharing website, goes live <strong
+                                                    class="text-primary">$500</strong>.</h6>
                                         </a>
                                     </li>
                                     <li>
@@ -795,8 +789,11 @@
                                         </div>
                                         <a class="timeline-panel text-muted" href="javascript:void(0);">
                                             <span>20 minutes ago</span>
-                                            <h6 class="mb-0">New order placed <strong class="text-info">#XF-2356.</strong></h6>
-                                            <p class="mb-0">Quisque a consequat ante Sit amet magna at volutapt...</p>
+                                            <h6 class="mb-0">New order placed <strong
+                                                    class="text-info">#XF-2356.</strong></h6>
+                                            <p class="mb-0">Quisque a consequat ante Sit amet magna at
+                                                volutapt...
+                                            </p>
                                         </a>
                                     </li>
                                     <li>
@@ -804,7 +801,8 @@
                                         </div>
                                         <a class="timeline-panel text-muted" href="javascript:void(0);">
                                             <span>30 minutes ago</span>
-                                            <h6 class="mb-0">john just buy your product <strong class="text-warning">Sell $250</strong></h6>
+                                            <h6 class="mb-0">john just buy your product <strong
+                                                    class="text-warning">Sell $250</strong></h6>
                                         </a>
                                     </li>
                                     <li>
@@ -835,86 +833,46 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item">
-                        <div class="dropdown header-profile2">
-                            <a class="nav-link ms-0" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <div class="header-info2 d-flex align-items-center">
-                                    <div class="d-flex align-items-center sidebar-info">
-                                        
-                                    </div>
-                                    <img src="images/user.jpg" alt="">
-                                </div>
+                    <li class="nav-item dropdown header-profile">
+                        <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
+                            <img src="{{ asset('commondashboard/images/profile/education/pic1') }}.jpg" width="20"
+                                alt="" />
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="app-profile.html" class="dropdown-item ai-icon">
+                                <svg id="icon-user1" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-user">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                                <span class="ms-2">Profile </span>
                             </a>
-                            <div class="dropdown-menu dropdown-menu-end pb-0" style="">
-                                <div class="card mb-0">
-                                    <div class="card-header p-3">
-                                        <ul class="d-flex align-items-center">
-                                            <li>
-                                                <img src="images/user.jpg" class="ms-0" alt="">
-                                            </li>
-                                            <li class="ms-2">
-                                                <h4 class="mb-0">Nella Vita</h4>
-                                                <span>Admin</span>
-                                            </li>
-                                        </ul>
-
-                                    </div>
-                                    <div class="card-body p-3">
-                                        <a href="app-profile.html" class="dropdown-item ai-icon ">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
-                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <polygon points="0 0 24 0 24 24 0 24"/>
-                                                    <path d="M12,11 C9.790861,11 8,9.209139 8,7 C8,4.790861 9.790861,3 12,3 C14.209139,3 16,4.790861 16,7 C16,9.209139 14.209139,11 12,11 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                    <path d="M3.00065168,20.1992055 C3.38825852,15.4265159 7.26191235,13 11.9833413,13 C16.7712164,13 20.7048837,15.2931929 20.9979143,20.2 C21.0095879,20.3954741 20.9979143,21 20.2466999,21 C16.541124,21 11.0347247,21 3.72750223,21 C3.47671215,21 2.97953825,20.45918 3.00065168,20.1992055 Z" fill="var(--primary)" fill-rule="nonzero"/>
-                                                </g>
-                                            </svg>
-                                            <span class="ms-2">Profile </span>
-                                        </a>
-                                        <a href="chat.html" class="dropdown-item ai-icon ">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
-                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <rect x="0" y="0" width="24" height="24"/>
-                                                    <path d="M21.9999843,15.009808 L22.0249378,15 L22.0249378,19.5857864 C22.0249378,20.1380712 21.5772226,20.5857864 21.0249378,20.5857864 C20.7597213,20.5857864 20.5053674,20.4804296 20.317831,20.2928932 L18.0249378,18 L5,18 C3.34314575,18 2,16.6568542 2,15 L2,6 C2,4.34314575 3.34314575,3 5,3 L19,3 C20.6568542,3 22,4.34314575 22,6 L22,15 C22,15.0032706 21.9999948,15.0065399 21.9999843,15.009808 Z M6.16794971,10.5547002 C7.67758127,12.8191475 9.64566871,14 12,14 C14.3543313,14 16.3224187,12.8191475 17.8320503,10.5547002 C18.1384028,10.0951715 18.0142289,9.47430216 17.5547002,9.16794971 C17.0951715,8.86159725 16.4743022,8.98577112 16.1679497,9.4452998 C15.0109146,11.1808525 13.6456687,12 12,12 C10.3543313,12 8.9890854,11.1808525 7.83205029,9.4452998 C7.52569784,8.98577112 6.90482849,8.86159725 6.4452998,9.16794971 C5.98577112,9.47430216 5.86159725,10.0951715 6.16794971,10.5547002 Z" fill="var(--primary)"/>
-                                                </g>
-                                            </svg>
-                                            <span class="ms-2">Message </span>
-                                        </a>
-                                        <a href="email-inbox.html" class="dropdown-item ai-icon ">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
-                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <rect x="0" y="0" width="24" height="24"/>
-                                                    <path d="M21,12.0829584 C20.6747915,12.0283988 20.3407122,12 20,12 C16.6862915,12 14,14.6862915 14,18 C14,18.3407122 14.0283988,18.6747915 14.0829584,19 L5,19 C3.8954305,19 3,18.1045695 3,17 L3,8 C3,6.8954305 3.8954305,6 5,6 L19,6 C20.1045695,6 21,6.8954305 21,8 L21,12.0829584 Z M18.1444251,7.83964668 L12,11.1481833 L5.85557487,7.83964668 C5.4908718,7.6432681 5.03602525,7.77972206 4.83964668,8.14442513 C4.6432681,8.5091282 4.77972206,8.96397475 5.14442513,9.16035332 L11.6444251,12.6603533 C11.8664074,12.7798822 12.1335926,12.7798822 12.3555749,12.6603533 L18.8555749,9.16035332 C19.2202779,8.96397475 19.3567319,8.5091282 19.1603533,8.14442513 C18.9639747,7.77972206 18.5091282,7.6432681 18.1444251,7.83964668 Z" fill="#000000"/>
-                                                    <circle fill="var(--primary)" opacity="0.3" cx="19.5" cy="17.5" r="2.5"/>
-                                                </g>
-                                            </svg>
-                                            <span class="ms-2">Notification </span>
-                                        </a>
-                                        <a href="javascript:void(0);" class="dropdown-item ai-icon ">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="svg-main-icon">
-                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <rect x="0" y="0" width="24" height="24"/>
-                                                    <path d="M18.6225,9.75 L18.75,9.75 C19.9926407,9.75 21,10.7573593 21,12 C21,13.2426407 19.9926407,14.25 18.75,14.25 L18.6854912,14.249994 C18.4911876,14.250769 18.3158978,14.366855 18.2393549,14.5454486 C18.1556809,14.7351461 18.1942911,14.948087 18.3278301,15.0846699 L18.372535,15.129375 C18.7950334,15.5514036 19.03243,16.1240792 19.03243,16.72125 C19.03243,17.3184208 18.7950334,17.8910964 18.373125,18.312535 C17.9510964,18.7350334 17.3784208,18.97243 16.78125,18.97243 C16.1840792,18.97243 15.6114036,18.7350334 15.1896699,18.3128301 L15.1505513,18.2736469 C15.008087,18.1342911 14.7951461,18.0956809 14.6054486,18.1793549 C14.426855,18.2558978 14.310769,18.4311876 14.31,18.6225 L14.31,18.75 C14.31,19.9926407 13.3026407,21 12.06,21 C10.8173593,21 9.81,19.9926407 9.81,18.75 C9.80552409,18.4999185 9.67898539,18.3229986 9.44717599,18.2361469 C9.26485393,18.1556809 9.05191298,18.1942911 8.91533009,18.3278301 L8.870625,18.372535 C8.44859642,18.7950334 7.87592081,19.03243 7.27875,19.03243 C6.68157919,19.03243 6.10890358,18.7950334 5.68746499,18.373125 C5.26496665,17.9510964 5.02757002,17.3784208 5.02757002,16.78125 C5.02757002,16.1840792 5.26496665,15.6114036 5.68716991,15.1896699 L5.72635306,15.1505513 C5.86570889,15.008087 5.90431906,14.7951461 5.82064513,14.6054486 C5.74410223,14.426855 5.56881236,14.310769 5.3775,14.31 L5.25,14.31 C4.00735931,14.31 3,13.3026407 3,12.06 C3,10.8173593 4.00735931,9.81 5.25,9.81 C5.50008154,9.80552409 5.67700139,9.67898539 5.76385306,9.44717599 C5.84431906,9.26485393 5.80570889,9.05191298 5.67216991,8.91533009 L5.62746499,8.870625 C5.20496665,8.44859642 4.96757002,7.87592081 4.96757002,7.27875 C4.96757002,6.68157919 5.20496665,6.10890358 5.626875,5.68746499 C6.04890358,5.26496665 6.62157919,5.02757002 7.21875,5.02757002 C7.81592081,5.02757002 8.38859642,5.26496665 8.81033009,5.68716991 L8.84944872,5.72635306 C8.99191298,5.86570889 9.20485393,5.90431906 9.38717599,5.82385306 L9.49484664,5.80114977 C9.65041313,5.71688974 9.7492905,5.55401473 9.75,5.3775 L9.75,5.25 C9.75,4.00735931 10.7573593,3 12,3 C13.2426407,3 14.25,4.00735931 14.25,5.25 L14.249994,5.31450877 C14.250769,5.50881236 14.366855,5.68410223 14.552824,5.76385306 C14.7351461,5.84431906 14.948087,5.80570889 15.0846699,5.67216991 L15.129375,5.62746499 C15.5514036,5.20496665 16.1240792,4.96757002 16.72125,4.96757002 C17.3184208,4.96757002 17.8910964,5.20496665 18.312535,5.626875 C18.7350334,6.04890358 18.97243,6.62157919 18.97243,7.21875 C18.97243,7.81592081 18.7350334,8.38859642 18.3128301,8.81033009 L18.2736469,8.84944872 C18.1342911,8.99191298 18.0956809,9.20485393 18.1761469,9.38717599 L18.1988502,9.49484664 C18.2831103,9.65041313 18.4459853,9.7492905 18.6225,9.75 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-                                                    <path d="M12,15 C13.6568542,15 15,13.6568542 15,12 C15,10.3431458 13.6568542,9 12,9 C10.3431458,9 9,10.3431458 9,12 C9,13.6568542 10.3431458,15 12,15 Z" fill="#000000"/>
-                                                </g>
-                                            </svg>
-                                            <span class="ms-2">Settings </span>
-                                        </a>
-
-                                    </div>
-                                    <div class="card-footer text-center p-3">
-                                        <a href="page-login.html" class="dropdown-item ai-icon btn btn-primary light">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
-                                            <span class="ms-2 text-primary">Logout </span>
-                                        </a>
-
-                                    </div>
-                                </div>
-                            </div>
+                            <a href="app-profile.html" class="dropdown-item ai-icon">
+                                <svg id="icon-inbox" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                                <span class="ms-2">Inbox </span>
+                            </a>
+                            <a href="page-login.html" class="dropdown-item ai-icon">
+                                <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out">
+                                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                    <polyline points="16 17 21 12 16 7"></polyline>
+                                    <line x1="21" y1="12" x2="9" y2="12"></line>
+                                </svg>
+                                <span class="ms-2">Logout </span>
+                            </a>
                         </div>
                     </li>
                 </ul>
             </div>
         </nav>
     </div>
-    
 </div>

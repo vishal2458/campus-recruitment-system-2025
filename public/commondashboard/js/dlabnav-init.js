@@ -49,10 +49,10 @@ function getUrlParams(dParam)
 
 	if(direction == 'rtl' || body.attr('direction') == 'rtl'){
         direction = 'rtl';
-		jQuery('.main-css').attr('href','commonDashboard/css/style-rtl.css');
+		jQuery('.main-css').attr('href','commondashboard/css/style-rtl.css');
     }else{
         direction = 'ltr';
-		jQuery('.main-css').attr('href','commonDashboard/css/style.css');
+		jQuery('.main-css').attr('href','commondashboard/css/style.css');
 	}
 
 

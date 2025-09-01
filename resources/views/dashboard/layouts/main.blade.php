@@ -17,32 +17,25 @@
 	<title>Akademi : School and Education Management Admin Dashboard Template</title>
     <!-- FAVICONS ICON -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png" >
-    @include('admin/layouts/css')
+    @include('dashboard/layouts/css')
     @stack('css')
-	
-	
 </head>
 <body>
     <div id="preloader">
-        <div class="loader">
-            <div class="dots">
-                <div class="dot mainDot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-            </div>  
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
         </div>
     </div>
-    <div id="main-wrapper" class="wallet-open active">
-        @include('admin/layouts/header')
-        @include('admin/layouts/sidebar')
-        <div class="content-body">
+
+    <div id="main-wrapper">
+        @include('dashboard/layouts/header')
+        @include('dashboard/layouts/sidebar')
             @yield('content')
-            @include('admin/layouts/footer')
-        </div>
+        @include('dashboard/layouts/footer')
     </div>
-    @include('admin/layouts/js')
+@include('dashboard/layouts/js')
     @stack('js')
 </body>
 </html>

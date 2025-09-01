@@ -31,13 +31,13 @@
     <title>Laravel | Dashboard</title>
 
 
-    <link href="{{ asset('commonDashBoard/vendor/chartist/css/chartist.min.css') }}" rel="stylesheet" type="text/css" />
-    <link href="{{ asset('commonDashboard/vendor/owl-carousel/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('commondashboard/vendor/chartist/css/chartist.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('commondashboard/vendor/owl-carousel/owl.carousel.css') }}" rel="stylesheet" type="text/css" />
 
 
-    <link href="{{ asset('commonDashboard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}"
+    <link href="{{ asset('commondashboard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}"
         rel="stylesheet" type="text/css" />
-    <link class="main-css" href="{{ asset('commonDashboard/css/style.css') }}" rel="stylesheet">
+    <link class="main-css" href="{{ asset('commondashboard/css/style.css') }}" rel="stylesheet">
 
 </head>
 
@@ -153,7 +153,7 @@
                                     <li class="active dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon"></span>
                                             </div>
@@ -166,7 +166,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -179,7 +179,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/3.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/3.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon"></span>
                                             </div>
@@ -192,7 +192,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/4.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/4.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -206,7 +206,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/5.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/5.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -219,7 +219,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon"></span>
                                             </div>
@@ -232,7 +232,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -246,7 +246,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/3.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/3.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon"></span>
                                             </div>
@@ -259,7 +259,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/4.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/4.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -273,7 +273,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/5.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/5.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -286,7 +286,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon"></span>
                                             </div>
@@ -299,7 +299,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -312,7 +312,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/3.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/3.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon"></span>
                                             </div>
@@ -326,7 +326,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/4.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/4.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -339,7 +339,7 @@
                                     <li class="dlab-chat-user">
                                         <div class="d-flex bd-highlight">
                                             <div class="img_cont">
-                                                <img src="{{ asset('commonDashboard/images/avatar/5.jpg') }}"
+                                                <img src="{{ asset('commondashboard/images/avatar/5.jpg') }}"
                                                     class="rounded-circle user_img" alt="">
                                                 <span class="online_icon offline"></span>
                                             </div>
@@ -401,7 +401,7 @@
                             <div class="card-body msg_card_body dlab-scroll" id="DLAB_W_Contacts_Body3">
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -415,13 +415,13 @@
                                         <span class="msg_time_send">8:55 AM, Today</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -435,13 +435,13 @@
                                         <span class="msg_time_send">9:05 AM, Today</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -455,13 +455,13 @@
                                         <span class="msg_time_send">9:10 AM, Today</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -471,7 +471,7 @@
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -485,13 +485,13 @@
                                         <span class="msg_time_send">8:55 AM, Today</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -505,13 +505,13 @@
                                         <span class="msg_time_send">9:05 AM, Today</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -525,13 +525,13 @@
                                         <span class="msg_time_send">9:10 AM, Today</span>
                                     </div>
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/2.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/2.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-start mb-4">
                                     <div class="img_cont_msg">
-                                        <img src="{{ asset('commonDashboard/images/avatar/1.jpg') }}"
+                                        <img src="{{ asset('commondashboard/images/avatar/1.jpg') }}"
                                             class="rounded-circle user_img_msg" alt="">
                                     </div>
                                     <div class="msg_cotainer">
@@ -916,7 +916,7 @@
                             </li>
                             <li class="nav-item dropdown header-profile">
                                 <a class="nav-link" href="javascript:void(0);" role="button" data-bs-toggle="dropdown">
-                                    <img src="{{ asset('commonDashboard/images/profile/education/pic1') }}.jpg"
+                                    <img src="{{ asset('commondashboard/images/profile/education/pic1') }}.jpg"
                                         width="20" alt="" />
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right">
@@ -1351,7 +1351,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="card">
                             <img class="img-fluid rounded-top"
-                                src="{{ asset('commonDashboard/images/courses/pic1.jpg') }}" alt="">
+                                src="{{ asset('commondashboard/images/courses/pic1.jpg') }}" alt="">
                             <div class="card-body">
                                 <h4><a href="about-courses.html">When Is the Best Time to Take an Education Course?</a>
                                 </h4>
@@ -1382,7 +1382,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="card">
                             <img class="img-fluid rounded-top"
-                                src="{{ asset('commonDashboard/images/courses/pic2.jpg') }}" alt="">
+                                src="{{ asset('commondashboard/images/courses/pic2.jpg') }}" alt="">
                             <div class="card-body">
                                 <h4><a href="about-courses.html">Education Courses: A Guide to Unlocking Your
                                         Potential</a></h4>
@@ -1413,7 +1413,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="card">
                             <img class="img-fluid rounded-top"
-                                src="{{ asset('commonDashboard/images/courses/pic3.jpg') }}" alt="">
+                                src="{{ asset('commondashboard/images/courses/pic3.jpg') }}" alt="">
                             <div class="card-body">
                                 <h4><a href="about-courses.html">A Comprehensive Guide to Taking an Education Course</a>
                                 </h4>
@@ -1444,7 +1444,7 @@
                     <div class="col-xl-3 col-md-6">
                         <div class="card">
                             <img class="img-fluid rounded-top"
-                                src="{{ asset('commonDashboard/images/courses/pic4.jpg') }}" alt="">
+                                src="{{ asset('commondashboard/images/courses/pic4.jpg') }}" alt="">
                             <div class="card-body">
                                 <h4><a href="about-courses.html">Why Should You Consider Taking an Education Course?</a>
                                 </h4>
@@ -1748,23 +1748,23 @@
     ***********************************-->
 
 
-    <script src="{{ asset('commonDashboard/vendor/global/global.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"
+    <script src="{{ asset('commondashboard/vendor/global/global.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/bootstrap-select/dist/js/bootstrap-select.min.js') }}"
         type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/svganimation/vivus.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/svganimation/svg.animation.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/ckeditor/ckeditor.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/jquery-sparkline/jquery.sparkline.min.js') }}"
+    <script src="{{ asset('commondashboard/vendor/svganimation/vivus.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/svganimation/svg.animation.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/ckeditor/ckeditor.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/jquery-sparkline/jquery.sparkline.min.js') }}"
         type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/plugins-init/sparkline-init.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/raphael/raphael.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/vendor/morris/morris.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/plugins-init/widgets-script-init.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/dashboard/dashboard.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/custom.min.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/dlabnav-init.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/demo.js') }}" type="text/javascript"></script>
-    <script src="{{ asset('commonDashboard/js/styleSwitcher.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/plugins-init/sparkline-init.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/raphael/raphael.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/vendor/morris/morris.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/plugins-init/widgets-script-init.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/dashboard/dashboard.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/custom.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/dlabnav-init.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/demo.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('commondashboard/js/styleSwitcher.js') }}" type="text/javascript"></script>
 
 
 </body>

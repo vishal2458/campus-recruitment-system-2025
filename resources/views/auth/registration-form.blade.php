@@ -25,12 +25,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <!-- Favicon icon -->
     <link rel="shortcut icon" type="image/png" href="public/images/favicon.png">
-    <link class="main-css" href="{{ asset('commonDashBoard/css/style.css') }}" rel="stylesheet">
-    <link href="{{ asset('commonDashBoard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link class="main-css" href="{{ asset('commondashboard/css/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('commondashboard/vendor/bootstrap-select/dist/css/bootstrap-select.min.css') }}"
+        rel="stylesheet" type="text/css" />
 
     <style>
-        .error{
-            color:red;
+        .error {
+            color: red;
         }
     </style>
 </head>
@@ -71,16 +72,18 @@
                             <form id="register" class="needs-validation" novalidate>
                                 <div class="form-group mb-3">
                                     <label for="fullname">Full Name</label>
-                                    <input type="text" class="form-control" id="fullname" name="name" placeholder="Full Name" required>
+                                    <input type="text" class="form-control" id="fullname" name="name"
+                                        placeholder="Full Name" required>
                                     <div class="invalid-feedback">Please enter your full name.</div>
                                 </div>
-                            
+
                                 <div class="form-group mb-3">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your valid email.." required>
-                                    
+                                    <input type="email" class="form-control" id="email" name="email"
+                                        placeholder="Your valid email.." required>
+
                                 </div>
-                            
+
                                 <div class="form-group mb-3">
                                     <label for="role">Role</label>
                                     <select class="form-control" id="role" name="role" required>
@@ -91,25 +94,28 @@
                                     </select>
                                     <div class="invalid-feedback">Please select a role.</div>
                                 </div>
-                            
+
                                 <div class="form-group mb-3">
                                     <label for="password">Password</label>
-                                    <input type="password" class="form-control" id="password" name="password" placeholder="Choose a safe one.." required>
+                                    <input type="password" class="form-control" id="password" name="password"
+                                        placeholder="Choose a safe one.." required>
                                     <div class="invalid-feedback">Please enter a password.</div>
                                 </div>
-                            
+
                                 <div class="form-group mb-3">
                                     <label for="confirm_password">Confirm Password</label>
-                                    <input type="password" class="form-control" id="confirm_password" placeholder="Confirm your password" required>
+                                    <input type="password" class="form-control" id="confirm_password"
+                                        placeholder="Confirm your password" required>
                                     <div class="invalid-feedback">Passwords do not match.</div>
                                 </div>
-                            
+
                                 <div class="text-center mt-4">
                                     <button type="submit" class="btn btn-primary">Sign me up</button>
                                 </div>
                             </form>
                             <div class="new-account mt-3">
-                                <p>Already have an account? <a class="text-primary" href="{{ route('home.login') }}">Sign in</a>
+                                <p>Already have an account? <a class="text-primary"
+                                        href="{{ route('home.login') }}">Sign in</a>
                                 </p>
                             </div>
                         </div>
@@ -118,9 +124,9 @@
             </div>
         </div>
     </div>
-    <script src="{{ asset('commonDashBoard/vendor/global/global.min.js') }}" type="text/javascript"></script>    
-    <script src="{{ asset('vendor/admin/jquery-validation/jquery.validate.min.js') }}" type="text/javascript"></script>    
-    <script src="{{ asset('vendor/admin/sweetalert2/dist/sweetalert2.min.js') }}" type="text/javascript"></script>    
+    <script src="{{ asset('commondashboard/vendor/global/global.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('vendor/admin/jquery-validation/jquery.validate.min.js') }}" type="text/javascript"></script>
+    <script src="{{ asset('vendor/admin/sweetalert2/dist/sweetalert2.min.js') }}" type="text/javascript"></script>
     <link rel="stylesheet" href="{{ asset('vendor/admin/sweetalert2/dist/sweetalert2.min.css') }}">
 
     <script>
@@ -154,100 +160,100 @@
                     }
                 },
                 submitHandler: function (form) {
-    $(".server-error").remove();
+                    $(".server-error").remove();
 
-    const data = {
-        name: $("input[name='name']").val(),
-        email: $("input[name='email']").val(),
-        password: $("input[name='password']").val(),
-        role: $("#role").val()
-    };
+                    const data = {
+                        name: $("input[name='name']").val(),
+                        email: $("input[name='email']").val(),
+                        password: $("input[name='password']").val(),
+                        role: $("#role").val()
+                    };
 
-    Swal.fire({
-        title: "Registering...",
-        text: "Please wait while we process your registration.",
-        allowOutsideClick: false,
-        didOpen: () => {
-            Swal.showLoading();
-        }
-    });
+                    Swal.fire({
+                        title: "Registering...",
+                        text: "Please wait while we process your registration.",
+                        allowOutsideClick: false,
+                        didOpen: () => {
+                            Swal.showLoading();
+                        }
+                    });
 
-    $.ajax({
-        url: "api/register",
-        method: "POST",
-        contentType: "application/json",
-        data: JSON.stringify(data),
-        success: function (res) {
-            Swal.close();
-
-            Swal.fire({
-                title: "Enter OTP",
-                input: "text",
-                inputLabel: "An OTP was sent to your email.",
-                inputPlaceholder: "Enter your OTP",
-                inputAttributes: {
-                    maxlength: 6,
-                    autocapitalize: "off",
-                    autocorrect: "off"
-                },
-                showCancelButton: false,
-                confirmButtonText: "Verify OTP",
-                preConfirm: (otp) => {
-                    if (!otp) {
-                        Swal.showValidationMessage("OTP is required");
-                        return false;
-                    }
-
-                    return $.ajax({
-                        url: "api/verify-email",
+                    $.ajax({
+                        url: "api/register",
                         method: "POST",
                         contentType: "application/json",
-                        data: JSON.stringify({
-                            email: data.email,
-                            code: otp
-                        })
-                    }).then((res) => {
-                        return res;
-                    }).catch((xhr) => {
-                        const msg = xhr.responseJSON?.message || "Verification failed";
-                        Swal.showValidationMessage(msg);
-                        return false;
+                        data: JSON.stringify(data),
+                        success: function (res) {
+                            Swal.close();
+
+                            Swal.fire({
+                                title: "Enter OTP",
+                                input: "text",
+                                inputLabel: "An OTP was sent to your email.",
+                                inputPlaceholder: "Enter your OTP",
+                                inputAttributes: {
+                                    maxlength: 6,
+                                    autocapitalize: "off",
+                                    autocorrect: "off"
+                                },
+                                showCancelButton: false,
+                                confirmButtonText: "Verify OTP",
+                                preConfirm: (otp) => {
+                                    if (!otp) {
+                                        Swal.showValidationMessage("OTP is required");
+                                        return false;
+                                    }
+
+                                    return $.ajax({
+                                        url: "api/verify-email",
+                                        method: "POST",
+                                        contentType: "application/json",
+                                        data: JSON.stringify({
+                                            email: data.email,
+                                            code: otp
+                                        })
+                                    }).then((res) => {
+                                        return res;
+                                    }).catch((xhr) => {
+                                        const msg = xhr.responseJSON?.message || "Verification failed";
+                                        Swal.showValidationMessage(msg);
+                                        return false;
+                                    });
+                                }
+                            }).then((result) => {
+                                if (result.isConfirmed) {
+                                    Swal.fire("Success!", "Your account has been verified.", "success");
+                                    form.reset();
+                                    $(form).validate().resetForm();
+                                }
+                            });
+                        },
+                        error: function (xhr) {
+                            Swal.close();
+
+                            const response = xhr.responseJSON;
+                            if (response?.errors) {
+                                $.each(response.errors, function (field, messages) {
+                                    const input = $(`[name="${field}"]`);
+                                    input.addClass("is-invalid");
+
+                                    if (input.next(".server-error").length === 0) {
+                                        input.after(`<div class="server-error text-danger mt-1">${messages[0]}</div>`);
+                                    }
+                                });
+                            } else {
+                                Swal.fire("Error", response?.message || "Something went wrong.", "error");
+                            }
+                        }
                     });
+
+                    return false;
                 }
-            }).then((result) => {
-                if (result.isConfirmed) {
-                    Swal.fire("Success!", "Your account has been verified.", "success");
-                    form.reset();
-                    $(form).validate().resetForm();
-                }
-            });
-        },
-        error: function (xhr) {
-            Swal.close();
-
-            const response = xhr.responseJSON;
-            if (response?.errors) {
-                $.each(response.errors, function (field, messages) {
-                    const input = $(`[name="${field}"]`);
-                    input.addClass("is-invalid");
-
-                    if (input.next(".server-error").length === 0) {
-                        input.after(`<div class="server-error text-danger mt-1">${messages[0]}</div>`);
-                    }
-                });
-            } else {
-                Swal.fire("Error", response?.message || "Something went wrong.", "error");
-            }
-        }
-    });
-
-    return false;
-}
 
             });
         });
-        </script>
-        
-        </body>
+    </script>
+
+</body>
 
 </html>

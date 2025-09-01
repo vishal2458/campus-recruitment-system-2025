@@ -16,6 +16,13 @@ Route::get('/login-form', [AuthApiController::class, 'loginForm'])->name('auth.l
 Route::post('/verify-email', [AuthApiController::class, 'verifyEmail'])->name('auth.verifyEmail');
 Route::get('/refresh_token', [AuthApiController::class, 'refreshToken']);
 
+Route::middleware(['auth:api', 'role:admin'])->group(function () {
+    Route::get('/admin/dashboard', [AdminController::class, 'index']);
+});
+
+Route::middleware(['auth:api', 'role:manager'])->group(function () {
+    Route::get('/manager/dashboard', [ManagerController::class, 'index']);
+});
 // Protected
 Route::group([
     "middleware" => "auth:api"

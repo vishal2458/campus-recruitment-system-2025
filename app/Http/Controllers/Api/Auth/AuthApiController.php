@@ -48,45 +48,41 @@ class AuthApiController extends Controller
         ], 500);
     }
 
-    public function login(Request $request){
-
+    public function login(Request $request)
+    {
         $request->validate([
             'email' => 'required|email',
             'password' => 'required',
         ]);
 
-                $token = Auth::attempt([
-                    "email" => $request->email,
-                    "password" => $request->password
-                ]);
+        $token = Auth::attempt([
+            "email" => $request->email,
+            "password" => $request->password
+        ]);
 
-                if(!$token)
-                {
-                    return response()->json([
-                        'message' => 'Invalid credentials',
-                        'status' => false
-                    ]);
-                }
-                    return response()->json([
+        if (!$token) {
+            return response()->json([
+                'message' => 'Invalid credentials',
+                'status' => false
+            ]);
+        }
+        return response()->json([
 
-                        'message' => 'Login successful',
-                        'status' => true,
-                        'token' => $token,
-                        'expires_in' => Auth::factory()->getTTL() * 60
-                    ]);
-
-
+            'message' => 'Login successful',
+            'status' => true,
+            'token' => $token,
+            'role' => Auth::user()->role,
+            'expires_in' => Auth::factory()->getTTL() * 60
+        ]);
     }
 
     public function verifyEmail(Request $request)
     {
-        dd($request);
         $request->validate([
             'code'  => 'required|digits:6',
         ]);
 
-        $user = GlobalHelper::emailVerification($request->uuid,$request->code);
-
+        $user = GlobalHelper::emailVerification($request->email, $request->code);
         if (!$user) {
             return response()->json([
                 'status' => false,
@@ -106,14 +102,8 @@ class AuthApiController extends Controller
         ]);
     }
 
-    public function loginForm(Request $request){
-        return response()->json([
-            'message' => 'Login form',
-            'status' => true,
-        ]);
-
-    }
-    public function profile(Request $request){
+    public function profile(Request $request)
+    {
         $user = Auth::user();
 
         return response()->json([
@@ -123,7 +113,8 @@ class AuthApiController extends Controller
         ]);
     }
 
-    public function refreshToken(Request $request){
+    public function refreshToken(Request $request)
+    {
 
         $newToken = auth()->refresh();
 
@@ -134,7 +125,8 @@ class AuthApiController extends Controller
             'expires_in' => Auth::factory()->getTTL() * 60
         ]);
     }
-    public function logout(Request $request){
+    public function logout(Request $request)
+    {
         auth()->logout();
         return response()->json([
             'message' => 'User logged out',
@@ -142,4 +134,3 @@ class AuthApiController extends Controller
         ]);
     }
 }
-
